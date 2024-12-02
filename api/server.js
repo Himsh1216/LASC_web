@@ -14,6 +14,7 @@ if (!process.env.SENDGRID_API_KEY) {
 
 const allowedOrigins = [
   'http://localhost:5001',
+  'https://lasc-web.vercel.app',
   'https://www.lasc.co.in',
   'https://lasc.co.in'
 ];

@@ -10,6 +10,8 @@ const ContactPage = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState({ type: '', message: '' });
 
+  const apiBaseUrl = process.env.REACT_APP_API_URL || 'http://localhost:5000';
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData(prev => ({
@@ -24,7 +26,7 @@ const ContactPage = () => {
     setSubmitStatus({ type: '', message: '' });
 
     try {
-      const response = await fetch('http://localhost:5000/api/contact', {
+      const response = await fetch(`${apiBaseUrl}/api/contact`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -16,6 +16,7 @@ const allowedOrigins = [
   'http://localhost:5001',
   'https://lasc-web.vercel.app',
   'https://www.lasc.co.in',
+  'https://lasc-web-himsh1216s-projects.vercel.app',
   'https://lasc.co.in'
 ];
 

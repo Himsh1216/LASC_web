@@ -37,7 +37,7 @@ export const CardContent = ({ className, children, ...props }) => (
   </div>
 );
 
-const CardComponents {
+const CardComponents = {
   Card,
   CardHeader,
   CardTitle,

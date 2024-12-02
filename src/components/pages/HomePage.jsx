@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ArrowRight, ChevronDown, CheckCircle2, X } from 'lucide-react';
+import { ChevronDown, CheckCircle2, X } from 'lucide-react';
 
 const HomePage = ({ setCurrentPage }) => {
   const [activeAboutFaq, setActiveAboutFaq] = useState(null);

@@ -1,5 +1,5 @@
 import React from 'react';
-import { MicroscopeIcon, Wrench, GraduationCap, X } from 'lucide-react';
+import { MicroscopeIcon, Wrench, GraduationCap } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '../ui/card.tsx';
 import {
   Dialog,

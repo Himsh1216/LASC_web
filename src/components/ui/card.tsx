@@ -37,9 +37,11 @@ export const CardContent = ({ className, children, ...props }) => (
   </div>
 );
 
-export default {
+const CardComponents {
   Card,
   CardHeader,
   CardTitle,
   CardContent
 };
+
+export default CardComponents;

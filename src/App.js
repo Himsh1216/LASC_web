@@ -5,8 +5,7 @@ import Footer from './components/Footer';
 import HomePage from './components/pages/HomePage.jsx';
 import ServicesPage from './components/pages/ServicesPage.jsx';
 import ContactPage from './components/pages/ContactPage.jsx';
-import { Analytics } from '@vercel/analytics/react'; // Import Vercel Analytics
-
+import { Analytics } from '@vercel/analytics/react'; 
 const App = () => {
   const [currentPage, setCurrentPage] = useState('home');
 
